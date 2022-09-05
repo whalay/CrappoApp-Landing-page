@@ -8,7 +8,7 @@ module.exports = {
         'Almost-Black': 'hsl(0, 0%, 8%)',
       },
       fontFamily: {
-        'Epilogue': ["Epilogue"],
+        'Oxanium': ['Oxanium', 'cursive'],
       },
     },
   },
