@@ -13,7 +13,7 @@ const Article = () => {
                 </div>
                 <div data-aos="zoom-in" data-aos-delay="350" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom">
                     <div className='text-black bg-white p-6 mx-auto  md:w-[80%] rounded-3xl '>
-                        <form action="" className='md:flex justify-between gap-16 items-center p-6  '>
+                        <form action="" className='md:flex justify-between gap-16 items-center p-1  '>
                             <input type="text" name="" id="" placeholder='Enter your hash rate'  className='border-b p-2 mb-5 text-xl md:text-xl outline-none w-full' />
                             <select name="list" id="" form="list"  className='border-b mb-5 p-2 block text-xl outline-none md:w-52  w-full'>
                                 <option selected value="THS">TH/S</option>

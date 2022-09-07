@@ -42,7 +42,7 @@ const Navbar = () => {
       </div>
 
       <div className={navbar ? " md:hidden fixed top-0 left-0 w-full h-full  bg-[#0D0D2B] z-10" : "hidden"}>
-        <div data-aos="fade-right" data-aos-delay="3000" data-aos-duration="3000" className="space-y-14 my-32 transition-all duration-500 text-2xl" >"
+        <div data-aos="fade-right" data-aos-delay="3000" data-aos-duration="3000" className="space-y-14 my-32 transition-all duration-500 text-2xl" >
           <ul className='space-y-14 mx-36 transition-all duration-500'>
             <li className=""><a href="/">Product</a> </li>
             <li><a href="/">Features</a></li>
