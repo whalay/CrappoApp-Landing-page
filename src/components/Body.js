@@ -19,9 +19,9 @@ const Body = () => {
                         <button data-aos="zoom-in-up" data-aos-delay="450" data-aos-duration="2000"
                             className='px-5 py-3 rounded-full bg-blue-500'>learn more</button>
                     </div>
-                    <img src={chart} alt="" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="2000" />
+                    <img src={chart} alt="" className="py-3" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="2000" />
                 </div>
-                <div className='md:flex flex-row-reverse justify-center gap-10 items-center space-x-10  '>
+                <div className='md:flex flex-row-reverse justify-center gap-10 items-center space-x-10'>
                     <div className='py-4'>
                         <h3 className='text-xl font-bold py-5'>Invest Smart</h3>
                         <p className='py-3  text-xm'>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -29,7 +29,7 @@ const Body = () => {
                         <button data-aos="zoom-in-up" data-aos-delay="550" data-aos-duration="2000"
                             className='px-5 py-2 rounded-full bg-blue-500 '>learn more</button>
                     </div>
-                    <img src={statistic} alt="" className='' data-aos="zoom-in-up" data-aos-anchor-placement="center-center" data-aos-delay="550" data-aos-duration="1000" />
+                    <img src={statistic} alt="" className='py-3' data-aos="zoom-in-up" data-aos-anchor-placement="center-center" data-aos-delay="550" data-aos-duration="1000" />
                 </div>
                 <div className='md:flex  justify-center gap-8 items-center space-x-10 '>
                     <div className='py-4'>
@@ -39,7 +39,7 @@ const Body = () => {
                         <button data-aos="zoom-in-up" data-aos-delay="600" data-aos-duration="2000"
                             className='px-5 py-2 rounded-full bg-blue-500 '>learn more</button>
                     </div>
-                    <img src={table} alt="" className='' data-aos="zoom-in-up" data-aos-anchor-placement="center-center" data-aos-delay="600" data-aos-duration="2000" />
+                    <img src={table} alt="" className='py-3' data-aos="zoom-in-up" data-aos-anchor-placement="center-center" data-aos-delay="600" data-aos-duration="2000" />
                 </div>
             </div>
             <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-anchor-placement="top-center" data-aos-delay="700" data-aos-duration="2000"
