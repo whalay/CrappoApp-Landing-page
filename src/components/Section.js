@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 import vector2 from '../assets/images/Vector2.svg';
 import vectorb from '../assets/images/Vectorb.svg';
 import bitcoin from '../assets/images/BitcoinIcon.svg';
-import litecoin from '../assets/images/Litecoin.svg';
+import litecoin from '../assets/images/lite.svg';
+import ethereum from '../assets/images/Ethereum.svg';
 
 const card = [{
     image: bitcoin,
@@ -14,18 +15,19 @@ const card = [{
     bottonIcon2: vector2,
 },
 {
-    image: litecoin,
-    title: 'Litecoin',
-    text: 'Digital currency in which a record of transactions is maintained.',
-    buttonText: 'Start mining',
+    image: ethereum,
+    title: 'Ethereum',
+    text: 'Blockchain technology to create and run decentralized digital applications.',
+    buttonText: 'Start Mining',
     bottonIcon1: vectorb,
     bottonIcon2: vector2,
+    
 },
 {
-    image: bitcoin,
-    title: 'Etherum',
-    text: 'Digital currency in which a record of transactions is maintained.',
-    buttonText: 'Start Mining',
+    image: litecoin,
+    title: 'Litecoin',
+    text: 'Cryptocurrency that enables instant payments to anyone in the world.',
+    buttonText: 'Start mining',
     bottonIcon1: vectorb,
     bottonIcon2: vector2,
 }]
