@@ -13,6 +13,7 @@ const card = [{
     buttonText: 'Start mining',
     bottonIcon1: vectorb,
     bottonIcon2: vector2,
+    spanText: 'BTC'
 },
 {
     image: ethereum,
@@ -21,7 +22,7 @@ const card = [{
     buttonText: 'Start Mining',
     bottonIcon1: vectorb,
     bottonIcon2: vector2,
-    
+    spanText: 'ETH'
 },
 {
     image: litecoin,
@@ -30,6 +31,7 @@ const card = [{
     buttonText: 'Start mining',
     bottonIcon1: vectorb,
     bottonIcon2: vector2,
+    spanText: 'LTC'
 }]
 
 
@@ -41,15 +43,15 @@ const Section = () => {
         <div className='bg-gray-200 w-full h-full font-Oxanium  '>
             <div className='text-center md:text-2xl flex flex-col bg-gray-200 items-center pt-[29rem] md:pt-72 '>
                 <h3 data-aos="zoom-in-up" data-aos-delay="400" data-aos-duration="3000"
-                    className="font-bold text-xl md:text-2xl px-3" >Trade Securely And Market The High Growth Cryptocurrencies.</h3>
+                    className="font-bold text-xl md:text-4xl px-3" >Trade Securely And Market The High Growth Cryptocurrencies.</h3>
                 <div className='flex md:flex-row flex-col justify-between gap-9 md:mx-20 md:my-10 p-5 my-10 '>
 
                     {card.map((card, index) => {
-                        const {image, title, text, buttonText, bottonIcon1, bottonIcon2} = card;
+                        const {image, title, text, buttonText, bottonIcon1, bottonIcon2, spanText} = card;
                         return (
                             <div onClick={()=> setCardTitle(title)} key={index} className={`${cardTitle === title ? 'bg-[#2B076E] text-white' : 'bg-white'} p-9 pb-14  text-center rounded-3xl hover:cursor-pointer`}>
                                 <img src={image} alt="" className='mx-auto' />
-                                <h2 className='text-4xl font-semibold py-7'>{title}</h2>
+                                <h2 className='text-4xl font-semibold py-7'>{title}<span className="text-gray-400 text-xl p-1">{spanText}</span></h2>
                                 <p className='text-sm py-7'>{text}</p>
                                 {cardTitle === title ? <button className='px-5 py-3 rounded-full bg-blue-500'>{buttonText} <img src={bottonIcon2} alt="" className="inline ml-4" /></button>
                                     : <button className="border-gray-400 rounded-full border "><img src={bottonIcon1} alt="" width="50px" height="50px" className="inline  p-4 rounded-full  " /> </button>
