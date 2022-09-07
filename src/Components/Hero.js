@@ -8,8 +8,8 @@ const Hero = () => {
     return (
         <div className='bg-[#0D0D2B] w-full h-full p-5 md:px-10 text-white font-Oxanium '>
             <div className='md:flex md:pr-20 md:m-4 items-center'>
-                <div className='md:w-[50%] px-14  ' >
-                    <button className='bg-gray-500 p-2 text-left     rounded-full text-xs '> <span
+                <div className='md:w-[50%]'>
+                    <button className='bg-gray-500 p-2 text-left rounded-full text-xs '> <span
                         data-aos="zoom-in" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="3000"
                         className='bg-gray-100 mr-10  px-4 ml-0 p-1 text-left text-black rounded-full'>70% SAVE</span>for the best black friday deals</button>
                     <h1 data-aos="fade-up"
