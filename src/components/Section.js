@@ -39,9 +39,9 @@ const Section = () => {
     
     return (
         <div className='bg-gray-200 w-full h-full font-Oxanium  '>
-            <div className='text-center text-2xl flex flex-col bg-gray-200 items-center pt-[29rem] md:pt-72 '>
+            <div className='text-center md:text-2xl flex flex-col bg-gray-200 items-center pt-[29rem] md:pt-72 '>
                 <h3 data-aos="zoom-in-up" data-aos-delay="400" data-aos-duration="3000"
-                    className="font-bold" >Trade Securely And Market The High Growth Cryptocurrencies.</h3>
+                    className="font-bold text-xl px-3" >Trade Securely And Market The High Growth Cryptocurrencies.</h3>
                 <div className='flex md:flex-row flex-col justify-between gap-9 md:mx-20 md:my-10 p-5 my-10 '>
 
                     {card.map((card, index) => {
