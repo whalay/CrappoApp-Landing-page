@@ -42,15 +42,15 @@ const Navbar = () => {
       </div>
 
       <div className={navbar ? " md:hidden fixed top-0 left-0 w-full h-full  bg-[#0D0D2B] z-10" : "hidden"}>
-        <div className={"space-y-14 my-32    transition-all duration-500 text-2xl  " } >
-          <ul className='space-y-14 mx-48 transition-all duration-500'>
+        <div data-aos="fade-right" data-aos-delay="3000" data-aos-duration="3000" className="space-y-14 my-32 transition-all duration-500 text-2xl" >"
+          <ul className='space-y-14 mx-36 transition-all duration-500'>
             <li className=""><a href="/">Product</a> </li>
             <li><a href="/">Features</a></li>
             <li><a href="/">About</a></li>
             <li><a href="/">Contact</a></li>
           </ul>
 
-          <div className='flex  mx-36 '>
+          <div className='flex  mx-28 '>
             <button className='pr-6'>Login</button>
             <button className=' px-5 py-2 rounded-full bg-blue-500'>Register</button>
           </div>
