@@ -4,48 +4,29 @@ import illustration from '../assets/images/Illustration.svg';
 import icon from '../assets/images/Icon.svg';
 import icon1 from '../assets/images/Icon1.svg';
 import icon2 from '../assets/images/Icon2.svg';
+import vector3 from '../assets/images/Vector3.svg';
+import vector from '../assets/images/Vector2.svg';
 const Hero = () => {
     return (
         <div className='bg-[#0D0D2B] w-full h-full p-5 md:px-10 text-white font-Oxanium '>
-            <div className='md:flex md:pr-20'>
-                <div className='mt-24 w-[410px] md:mx-12' >
-                    <button  className='bg-gray-500 p-4 pl-5 rounded-full text-xs '> <span data-aos="zoom-in"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine" className='bg-blue-200 mr-5  p-2 px-3 text-black rounded-full'>70% SAVE</span>for the best black friday deals</button>
-                    <h1 className='py-5 text-4xl font-bold '>Fastest & Secure <span className=''>Platform To Invvest In Crypto</span></h1>
-                    <p className='py-6 text-xs'>buy and sell cryptocurrencies by truustted IDM wallets, in over 100m transaction</p>
-                    <button className='px-5 py-2 rounded-full bg-blue-500'>Try For free</button>
+            <div className='md:flex md:pr-20 md:m-4 items-center'>
+                <div className='md:w-[50%] px-14  ' >
+                    <button className='bg-gray-500 p-2 text-left     rounded-full text-xs '> <span
+                        data-aos="zoom-in" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="3000"
+                        className='bg-gray-100 mr-10  px-4 ml-0 p-1 text-left text-black rounded-full'>70% SAVE</span>for the best black friday deals</button>
+                    <h1 data-aos="fade-up"
+                        data-aos-duration="3000" className='py-5 text-4xl md:text-5xl mx-auto font-bold '>Fastest & Secure <span className=''>Platform To Invest In Crypto</span></h1>
+                    <p data-aos="fade-up" data-aos-duration="3000" className='pb-6 text-xs'>
+                        buy and sell cryptocurrencies by trustted IDM wallets, in over 100m transaction</p>
+                    <button className=' py-1 px-3 rounded-full bg-blue-500 text-2xl'>Try For free <img src={vector3} alt="" data-aos="fade-right" data-aos-easing="linear"
+                        data-aos-duration="1500" className="inline bg-white p-3  rounded-full ml-5" /></button>
                 </div>
 
-                <div>
+                <div data-aos="zoom-in-up" data-aos-duration="3000" className="md:mx-15">
                     <img src={illustration} alt="" />
                 </div>
-
-
             </div>
-            <div className='md:flex justify-between items-center p-5'>
-                <div className='flex md:justify-between justify-center items-center gap-5 p-4'>
-                    <img src={icon} alt="" />
-                    <div>
-                        <h2 className='text-lg font-normal'>$30B</h2>
-                        <p className='text-xs'>Digital Currency Exchange</p>
-                    </div>
-                </div>
-                <div className='flex justify-center items-center gap-5 p-4'>
-                    <img src={icon1} alt="" />
-                    <div>
-                        <h2 className='text-lg font-normal'>190+</h2>
-                        <p className='text-xs'>Countries Around The World</p>
-                    </div>
-                </div>
-                <div className='flex md:justify-between justify-center items-center gap-5 p-4'>
-                    <img src={icon2} alt="" />
-                    <div>
-                        <h2 className='text-lg font-normal'>$10M</h2>
-                        <p className='text-xs'>Trusted Wallet Investor</p>
-                    </div>
-                </div>
-            </div>
+
         </div>
     )
 }

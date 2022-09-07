@@ -15,8 +15,8 @@ const Navbar = () => {
     setNavbar((navbar) => !navbar);
   }
   return (
-    <div className="bg-[#0D0D2B] w-full p-5 px-10 text-white font-Oxanium ">
-      <div className="flex justify-between px-4 items-center">
+    <div className="bg-[#0D0D2B] w-full   md:block p-5 px-5  text-white font-Oxanium ">
+      <div className="flex justify-between  items-center md:mx-10">
         <img src={logo} alt="" />
 
         <div className='hidden md:flex justify-start items-center gap-9'>
@@ -32,7 +32,7 @@ const Navbar = () => {
             <button className=' px-5 py-2 rounded-full bg-blue-500'>Register</button>
           </div>
         </div>
-        <div className='md:hidden'>
+        <div className='md:hidden z-20'>
           <button onClick={navHandler}>
             <img
               src={navbar ? close : hamburger}
@@ -40,10 +40,11 @@ const Navbar = () => {
           </button>
         </div>
       </div>
-  
 
-        <div className={navbar ? "md:hidden flex flex-col justify-start items-center gap-9 transition-all" : "hidden"} >
-          <ul className='flex flex-col justify-between gap-5 transition-all duration-500'>
+      <div data-aos="fade-right" data-aos-duration="200"  data-aos-anchor-placement="top-bottom"
+       className={navbar ? " md:hidden fixed top-0 left-0 w-full h-full  bg-[#0D0D2B] z-10" : "hidden"}>
+        <div className={"space-y-14 my-32 translate-x-52 transition-all duration-50 text-2xl" } >
+          <ul className='flex flex-col justify-between space-y-14  transition-all duration-50'>
             <li className="">Product</li>
             <li>Features</li>
             <li>About</li>
@@ -54,8 +55,8 @@ const Navbar = () => {
             <button className='mr-5'>Login</button>
             <button className=' px-5 py-2 rounded-full bg-blue-500'>Register</button>
           </div>
-        </div> 
-
+        </div>
+      </div>
 
     </div>
   )

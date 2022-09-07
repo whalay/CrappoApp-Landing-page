@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c60630c3.css",
+    "main.js": "/static/js/main.c6dfd26a.js",
+    "static/js/787.633816a4.chunk.js": "/static/js/787.633816a4.chunk.js",
+    "static/media/Statistic.svg": "/static/media/Statistic.4dd9464ff441ee862adb64fc22263980.svg",
+    "static/media/Illustrations.svg": "/static/media/Illustrations.e0501cbfaa91e38bdb2f2512c84f1d43.svg",
+    "static/media/Illustration.svg": "/static/media/Illustration.16191f3ac8b6b6b6f2efb5bbfb74126e.svg",
+    "static/media/Table.svg": "/static/media/Table.09203b35af8223aa7471fede29e9c6ee.svg",
+    "static/media/Chart.svg": "/static/media/Chart.631cb75ae977f5f56280db80aa9603ba.svg",
+    "static/media/Icon2.svg": "/static/media/Icon2.4ebaa7e448caff259da01b5bfa946058.svg",
+    "static/media/instagram.svg": "/static/media/instagram.fbd3f44d445e362acee0c02b2802b697.svg",
+    "static/media/Logo.svg": "/static/media/Logo.577e57704d61a2ffd1c74ef7e58b0cdb.svg",
+    "static/media/BitcoinIcon.svg": "/static/media/BitcoinIcon.9f07e04634dc694a8314316dc4815001.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.64a2101051579000fbfb2c1b4a79a3ca.svg",
+    "static/media/Bitcoin.svg": "/static/media/Bitcoin.63250dc5f458b780f44191b05ed385f1.svg",
+    "static/media/Icon.svg": "/static/media/Icon.83dc4b222a04072cfb37e05c6e8c00b6.svg",
+    "static/media/Visa.svg": "/static/media/Visa.ca809566be6c7e1a463f0cc4fd5781bb.svg",
+    "static/media/twitter.svg": "/static/media/twitter.4641f134537f3fc27de584faf5a953fa.svg",
+    "static/media/Vector2.svg": "/static/media/Vector2.0b1d7044c090f3b673038482707b8ab4.svg",
+    "static/media/Icon1.svg": "/static/media/Icon1.ad8a5db94be368b45b10954e70d38b4e.svg",
+    "static/media/youtube.svg": "/static/media/youtube.d164e8db299e4a42fe9e282286ed9b43.svg",
+    "static/media/Vector3.svg": "/static/media/Vector3.6b3e37296129f8751d54c9e0db6c9666.svg",
+    "static/media/Vectorb.svg": "/static/media/Vectorb.6b3e37296129f8751d54c9e0db6c9666.svg",
+    "static/media/Mastercard.svg": "/static/media/Mastercard.77524af5e2d003b0e6fe7323e8e706be.svg",
+    "index.html": "/index.html",
+    "static/media/close.svg": "/static/media/close.b2e4d350b43224ec5db92b755b3c00ac.svg",
+    "static/media/Litecoin.svg": "/static/media/Litecoin.ea3a75f9df47ffded2b07092d4e5c710.svg",
+    "static/media/hamburger.svg": "/static/media/hamburger.49d374963fffa3b15247bec93788f290.svg",
+    "main.c60630c3.css.map": "/static/css/main.c60630c3.css.map",
+    "main.c6dfd26a.js.map": "/static/js/main.c6dfd26a.js.map",
+    "787.633816a4.chunk.js.map": "/static/js/787.633816a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c60630c3.css",
+    "static/js/main.c6dfd26a.js"
+  ]
+}

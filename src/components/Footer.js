@@ -43,7 +43,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='md:flex justify-between m-10 '>
-                <p className='p-5'>© 2022 CRAPPO. All rights reserved.</p>
+                <p className='text-center p-5'>© 2022 CRAPPO. All rights reserved.</p>
                 <div className='flex m-10 justify-center gap-10'>
                     <img src={youtube} alt="" />
                     <img src={instargram} alt="" />
