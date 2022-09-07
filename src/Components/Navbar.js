@@ -41,18 +41,17 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div data-aos="fade-right" data-aos-duration="200"  data-aos-anchor-placement="top-bottom"
-       className={navbar ? " md:hidden fixed top-0 left-0 w-full h-full  bg-[#0D0D2B] z-10" : "hidden"}>
-        <div className={"space-y-14 my-32 translate-x-52 transition-all duration-50 text-2xl" } >
-          <ul className='flex flex-col justify-between space-y-14  transition-all duration-50'>
+      <div className={navbar ? " md:hidden fixed top-0 left-0 w-full h-full  bg-[#0D0D2B] z-10" : "hidden"}>
+        <div className={"space-y-14 my-32    transition-all duration-500 text-2xl  " } >
+          <ul className='space-y-14 mx-72 transition-all duration-500'>
             <li className="">Product</li>
             <li>Features</li>
             <li>About</li>
             <li>Contact</li>
           </ul>
 
-          <div className=''>
-            <button className='mr-5'>Login</button>
+          <div className='flex  mx-64 '>
+            <button className='pr-6'>Login</button>
             <button className=' px-5 py-2 rounded-full bg-blue-500'>Register</button>
           </div>
         </div>
