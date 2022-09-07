@@ -6,12 +6,12 @@ const Article = () => {
     return (
         <div className='bg-[#0D0D2B] w-full h-64 p-5 md:px-10 text-white font-Oxanium '>
             <div >
-                <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" className='text-center py-8'>
+                <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="2000" className='text-center py-8'>
                     <h2 className='text-2xl  font-semibold'>How Much Can You Earn With Us</h2>
                     <p className='text-xs'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Porro, id similique temporibus dignissimos tempore odio?</p>
                 </div>
-                <div data-aos="zoom-in" data-aos-delay="350" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom">
+                <div data-aos="zoom-in" data-aos-delay="350" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom">
                     <div className='text-black bg-white p-6 mx-auto  md:w-[80%] rounded-3xl '>
                         <form action="" className='md:flex justify-between gap-16 items-center p-6  '>
                             <input type="text" name="" id="" placeholder='Enter your hash rate'  className='border-b p-2 mb-5 text-xl md:text-xl outline-none w-full' />

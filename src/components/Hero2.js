@@ -12,7 +12,7 @@ const Hero2 = () => {
             <div data-aos="fade-up"
                 data-aos-easing="ease-in-back"
                 data-aos-delay="200"
-                data-aos-offset="0" data-aos-duration="1000"
+                data-aos-offset="0" data-aos-duration="2000"
                 className='md:flex justify-between items-center p-5' >
                 <div className='flex md:justify-between justify-center items-center gap-5 p-4'>
                     <img src={icon} alt="" />
@@ -36,7 +36,7 @@ const Hero2 = () => {
                     </div>
                 </div>
             </div>
-            <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300" className='flex justify-center flex-col-reverse md:flex-row items-center md:p-5'>
+            <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" className='flex justify-center flex-col-reverse md:flex-row items-center md:p-5'>
                 <img src={illustration} alt="" />
                 <div data-aos="fade-up"
                     data-aos-delay="150" data-aos-duration="3000" className='p-5'>
