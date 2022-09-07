@@ -1,11 +1,9 @@
 import React from 'react'
 
 import illustration from '../assets/images/Illustration.svg';
-import icon from '../assets/images/Icon.svg';
-import icon1 from '../assets/images/Icon1.svg';
-import icon2 from '../assets/images/Icon2.svg';
+
 import vector3 from '../assets/images/Vector3.svg';
-import vector from '../assets/images/Vector2.svg';
+
 const Hero = () => {
     return (
         <div className='bg-[#0D0D2B] w-full h-full p-5 md:px-10 text-white font-Oxanium '>
