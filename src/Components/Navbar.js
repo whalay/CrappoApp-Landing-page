@@ -15,11 +15,11 @@ const Navbar = () => {
     setNavbar((navbar) => !navbar);
   }
   return (
-    <div className="bg-[#0D0D2B] w-full   md:block p-5 px-5  text-white font-Oxanium ">
+    <div className="bg-[#0D0D2B] w-full  p-5 px-5  text-white font-Oxanium ">
       <div className="flex justify-between  items-center md:mx-10">
         <img src={logo} alt="" />
 
-        <div className='hidden md:flex justify-start items-center gap-9'>
+        <div className='hidden md:flex justify-start items-center gap-9 text-xl font-semibold'>
           <ul className='flex justify-between gap-5'>
           <li className=""><a href="/">Product</a> </li>
             <li><a href="/">Features</a></li>
