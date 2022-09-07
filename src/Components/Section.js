@@ -38,7 +38,7 @@ const Section = () => {
     const [cardTitle, setCardTitle] = useState('Bitcoin');
     
     return (
-        <div className='bg-gray-200 w-full h-full font-Oxanium pt-32 '>
+        <div className='bg-gray-200 w-full h-full font-Oxanium  '>
             <div className='text-center text-2xl flex flex-col bg-gray-200 items-center pt-[29rem] md:pt-72 '>
                 <h3 data-aos="zoom-in-up" data-aos-delay="400" data-aos-duration="3000"
                     className="font-bold" >Trade Securely And Market The High Growth Cryptocurrencies.</h3>
